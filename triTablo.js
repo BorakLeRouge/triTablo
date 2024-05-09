@@ -28,6 +28,7 @@ let triTablo = {
         }
     }
     ,
+    // Et c'est ici qu'on effectue le tri à la mano sur la table HTML
     sort: function(tabl, col) {
         let listTr = tabl.getElementsByTagName('tr') ;
         let nbTb   = listTr.length - 1 ; 
