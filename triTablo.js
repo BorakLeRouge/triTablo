@@ -77,8 +77,8 @@ let triTablo = {
                     let rub1 = td1[col].innerHTML ; 
                     rub1 = rub1.substring(6,10) + rub1.substring(3,5) + rub1.substring(0,2) ; 
                     if ( (rub1 < rub0) == testTri) {
+                        rub0 = rub1 ;
                         for (let c = 0; c < td1.length; c++) {
-                            rub0 = rub1 ;
                             let t  = td1[c].innerHTML ;
                             td1[c].innerHTML = td0[c].innerHTML ;
                             td0[c].innerHTML = t ;
